@@ -153,11 +153,13 @@ namespace HCI__lab_1._2
         {
             if (checkBox4.Checked)
             {
+                label2.Visible = true;
                 button4.Visible = true;
                 comboBox1.Visible = true;
             }
             else
             {
+                label2.Visible = false;
                 button4.Visible = false;
                 comboBox1.Visible = false;
             }
